@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- Xiaomi and some Android manufacturers block clearText calls from a SSL server not trusted, so we manually trust this for DEV, PRE -->
+    <base-config cleartextTrafficPermitted="true">
+
+    </base-config>
+</network-security-config>

@@ -1,0 +1,28 @@
+plugins {
+    id 'com.android.library'
+    id 'kotlin-android'
+}
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+
+    defaultConfig {
+        minSdkVersion rootProject.ext.minSdkVersion
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+
+}
+
+dependencies {
+
+    implementation libs.androidxAppCompat
+    implementation libs.androidxConstraintLayout
+    implementation libs.androidxNavigationFragmentKtx
+    implementation libs.androidxNavigationUiKtx
+    implementation libs.koin
+    implementation libs.kotlin
+    implementation libs.lottie
+}

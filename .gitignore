@@ -1,0 +1,35 @@
+# idea
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+
+/captures
+.externalNativeBuild
+.cxx
+
+
+# Build
+/build
+**/build/
+
+# Gradle
+.gradle
+
+# Android Studio (IntelliJ)
+.idea
+*.iws
+*.iml
+*.ipr
+
+# Android
+local.properties
+/local.properties
+app/release
+*.aab
+app/src/main/config_files/strings/
+
+# Mac
+.DS_Store

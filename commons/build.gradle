@@ -1,0 +1,13 @@
+plugins {
+    id 'kotlin'
+}
+
+dependencies {
+
+    implementation libs.androidxAppCompat
+    implementation libs.koin
+    implementation libs.kotlin
+    implementation libs.kotlinCoroutinesAndroid
+    implementation libs.moshiKotlin
+    implementation libs.googleGson
+}

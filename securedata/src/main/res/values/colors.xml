@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#c6de41</color>
+    <color name="colorPrimaryDark">#071c21</color>
+
+    <color name="colorStatusBar">#2c5d63</color>
+    <color name="colorBackground">#e0e0e0</color>
+    <color name="colorAdditional">#153b44</color>
+    <color name="colorAdditional2">#2d6e7e</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#ff4f4e</color>
+    <color name="redLight">#ffdcdc</color>
+    <color name="redIconColor">#EB2F2F</color>
+</resources>

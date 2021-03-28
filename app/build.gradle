@@ -1,0 +1,102 @@
+plugins {
+    id  'com.android.application'
+    id  'kotlin-android'
+    id  'kotlin-android-extensions'
+    id  'kotlin-kapt'
+}
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion "30.0.3"
+
+    defaultConfig {
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode 1
+        versionName "1.0"
+
+        buildConfigField("String", "PACKAGE_NAME", "\"com.pruebatalento\"")
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        debug {
+            debuggable true
+        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+
+    }
+
+    dataBinding {
+        enabled = true
+    }
+
+    productFlavors {
+        dev {
+            buildConfigField "String", 'BASE_URL', "\"${dev_base_url}\""
+            buildConfigField "String", "PREFS", "\"${prefs_dev}\""
+
+        }
+
+        pre {
+            buildConfigField "String", 'BASE_URL', "\"${pre_base_url}\""
+            buildConfigField "String", "PREFS", "\"${prefs_pre}\""
+
+        }
+
+        pro {
+            buildConfigField "String", 'BASE_URL', "\"${pro_base_url}\""
+            buildConfigField "String", "PREFS", "\"${prefs_pro}\""
+
+        }
+    }
+
+    flavorDimensions "enviroment"
+
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+}
+
+dependencies {
+    implementation project(':commons')
+    implementation project(':commons-android')
+    implementation project(':data')
+    implementation project(':domain')
+
+    implementation libs.androidxAppCompat
+    implementation libs.androidXCoreKtx
+    implementation libs.androidMotionLayout
+    implementation libs.androidxAppCompat
+    implementation libs.androidxConstraintLayout
+    implementation libs.androidXCoreKtx
+    implementation libs.androidxLifecycleExtensions
+    implementation libs.androidxNavigationFragmentKtx
+    implementation libs.androidxNavigationUiKtx
+    implementation libs.androidxDataBindingCompiler
+    implementation libs.androidMaterial
+    implementation libs.googleAndroidMaterial
+    implementation libs.androidxMultidex
+    implementation libs.huaweiPush
+    implementation libs.koin
+    implementation libs.koinViewModel
+    implementation libs.kotlin
+    implementation libs.lottie
+    implementation libs.picasso
+    implementation libs.retrofit
+    implementation libs.retrofitMoshi
+    implementation libs.retrofitKotlinCoroutinesAdapter
+    implementation libs.stetho
+    implementation libs.threeTenABP
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+}

@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name">PruebaTalento</string>
+    <string name="default_assistance_number">612 34 56 78</string>
+    <string name="logout_text">¿Estás seguro que deseas cerrar la aplicación?</string>
+    <string name="logout_cancel_button">Mejor no</string>
+    <string name="logout_accept_button">Cerrar sesión</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="maintenance_title">Ops! ¡Estamos realizando tareas de mantenimiento!</string>
+    <string name="maintenance_description">Vuelva a intentarlo en unos minutos y las tareas se habrán completado</string>
+    <string name="versiones_update_title">¡Hay una nueva actualización!</string>
+    <string name="versiones_update_description">Es necesario que actualices a la nueva versión para poder disfrutar de las nuevas mejoras que se han incluido.</string>
+    <string name="login_username">Ingrese su usuario o email</string>
+    <string name="login_password">Ingrese su contraseña</string>
+    <string name="login_btn">Acceder</string>
+    <string name="login_register">¿No tienes cuenta? Registrate aquí</string>
+    <string name="login_problems">He olvidado mi contraseña</string>
+    <string name="toolbar_problem_access">Problemas para acceder</string>
+    <string name="tv_problem_access">Para recuperar su cuenta, introduzca su dirección de correo electrónico</string>
+    <string name="btn_retrieve_account">Recuperar cuenta</string>
+    <string name="problem_access_email">Ingresa tu correo electrónico</string>
+    <string name="toolbar_register">Registro de usuario</string>
+    <string name="btn_register">Registrar cuenta</string>
+    <string name="tv_register">Rellena todos los campos para registrar la cuenta</string>
+    <string name="register_email">Introduce tu correo electrónico</string>
+    <string name="register_email2">Repite tu correo electrónico</string>
+    <string name="register_password2">Repite tu contraseña</string>
+    <string name="register_password">Introduce tu contraseña</string>
+    <string name="register_email_error">Los correos electrónicos no coinciden</string>
+    <string name="register_password_error">Las contraseñas no coinciden</string>
+    <string name="my_area_screen_name">Mi area</string>
+    <string name="dashboard_screen_name">Reservar pista</string>
+    <string name="register_location">Introduce una ciudad</string>
+    <string name="centers_screen_name">Mis centros</string>
+    <string name="register_name">Introduce tu nombre</string>
+    <string name="login_credential_custom_error_title">¡Algo ha fallado!</string>
+    <string name="login_credential_custom_error_body">Revise los datos de acceso y vuelva a intentarlo. Parece que hay algún problema</string>
+    <string name="login_credential_custom_error_button">Entendido</string>
+    <string name="generic_error_title">¡Algo ha fallado!</string>
+    <string name="generic_error_body">Parece que algo ha ido mal. Revise su conexión a internet y vuelva a intentarlo.</string>
+    <string name="generic_error_button">Cerrar</string>
+    <string name="register_credential_custom_error_title">¡Algo ha fallado!</string>
+    <string name="register_credential_custom_error_body">El correo electrónico ya está registrado.</string>
+    <string name="register_credential_custom_error_button">Cerrar</string>
+    <string name="toolbar_dashboard">Marvel Talento APP</string>
+    <string name="default_description">No hay descripción para este personaje</string>
+    <string name="toolbar_character_detail">Más información</string>
+    <string name="char_detail_desc">Descripción</string>
+    <string name="char_detail_series">"Número de series del personaje: "</string>
+    <string name="char_detail_comics">"Número de comics del personaje: "</string>
+    <string name="char_detail_stories">"Número de historias del personaje: "</string>
+    <string name="char_detail_events">"Número de eventos del personaje: "</string>
+    <string name="default_value">0</string>
+    <string name="tv_name_char">"Nombre: "</string>
+    <string name="tv_name_char_default">Nombre de personaje</string>
+    <string name="tv_list_value_default">No</string>
+    <string name="tv_comics">¿Hay comics?</string>
+    <string name="tv_series">¿Hay series?</string>
+    <string name="tv_stories">¿Hay historias?</string>
+    <string name="tv_events">¿Hay eventos?</string>
+    <string-array name="cities">
+        <item>Alava</item>
+        <item>Albacete</item>
+        <item>Alicante</item>
+        <item>Almería</item>
+        <item>Asturias</item>
+        <item>Avila</item>
+        <item>Badajoz</item>
+        <item>Barcelona</item>
+        <item>Burgos</item>
+        <item>Cáceres</item>
+        <item>Cádiz</item>
+        <item>Cantabria</item>
+        <item>Castellón</item>
+        <item>Ciudad Real</item>
+        <item>Córdoba</item>
+        <item>La Coruña</item>
+        <item>Cuenca</item>
+        <item>Gerona</item>
+        <item>Granada</item>
+        <item>Guadalajara</item>
+        <item>Guipúzcoa</item>
+        <item>Huelva</item>
+        <item>Huesca</item>
+        <item>Islas Baleares</item>
+        <item>Jaén</item>
+        <item>León</item>
+        <item>Lérida</item>
+        <item>Lugo</item>
+        <item>Madrid</item>
+        <item>Málaga</item>
+        <item>Murcia</item>
+        <item>Navarra</item>
+        <item>Orense</item>
+        <item>Palencia</item>
+        <item>Las Palmas</item>
+        <item>Pontevedra</item>
+        <item>La Rioja</item>
+        <item>Salamanca</item>
+        <item>Segovia</item>
+        <item>Sevilla</item>
+        <item>Soria</item>
+        <item>Tarragona</item>
+        <item>Santa Cruz de Tenerife</item>
+        <item>Teruel</item>
+        <item>Toledo</item>
+        <item>Valencia</item>
+        <item>Vizcaya</item>
+        <item>Zamora</item>
+        <item>Zaragoza</item>
+    </string-array>
+</resources>

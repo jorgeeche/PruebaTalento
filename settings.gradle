@@ -1,0 +1,7 @@
+include ':data'
+include ':commons-android'
+include ':securedata'
+include ':app'
+include ':commons'
+include ':domain'
+rootProject.name = "PruebaTalento"

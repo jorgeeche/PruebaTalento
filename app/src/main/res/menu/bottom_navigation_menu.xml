@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/maintenanceFragment"
+        android:icon="@drawable/ic_user_icon_dark"
+        android:title="@string/my_area_screen_name" />
+
+    <item
+        android:id="@+id/dashboardFragment"
+        android:icon="@drawable/ic_search_dark"
+        android:title="@string/dashboard_screen_name" />
+
+    <item
+        android:id="@+id/versionesUpdateFragment"
+        android:icon="@drawable/ic_centers_dark"
+        android:title="@string/centers_screen_name" />
+
+</menu>

@@ -1,0 +1,13 @@
+plugins {
+    id 'kotlin'
+}
+
+dependencies {
+    implementation project(":commons")
+
+    implementation libs.koin
+    implementation libs.kotlin
+    implementation libs.kotlinCoroutinesAndroid
+    implementation libs.threeTenABP
+
+}

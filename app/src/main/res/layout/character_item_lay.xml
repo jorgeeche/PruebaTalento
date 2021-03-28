@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:elevation="@dimen/margin_10"
+    android:background="@color/white"
+    android:layout_marginLeft="@dimen/margin_10"
+    android:layout_marginRight="@dimen/margin_10"
+    android:layout_marginTop="@dimen/margin_10"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/charImage"
+        android:layout_width="130sp"
+        android:layout_height="130sp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintGuide_percent="0.33"
+        android:orientation="vertical" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/RightMarvelAdapterItem"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/dimension_object_10"
+        android:layout_marginLeft="@dimen/dimension_object_10"
+        android:layout_marginBottom="@dimen/dimension_object_10"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/Name"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dimension_object_20"
+            android:layout_marginLeft="@dimen/dimension_object_5"
+            android:layout_marginBottom="@dimen/dimension_object_5"
+            android:textSize="@dimen/size_text_16"
+            android:text="@string/tv_name_char"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/marvelName"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dimension_object_20"
+            android:textSize="@dimen/size_text_16"
+
+            android:text="@string/tv_name_char_default"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/Name"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvComics"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dimension_object_20"
+            android:layout_marginLeft="@dimen/dimension_object_5"
+            android:text="@string/tv_comics"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Name" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvComicsValue"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dimension_object_20"
+            android:text="@string/tv_list_value_default"
+            android:layout_marginLeft="@dimen/dimension_object_10"
+            app:layout_constraintStart_toEndOf="@+id/tvComics"
+            app:layout_constraintTop_toBottomOf="@+id/Name" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvSeries"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dimension_object_20"
+            android:layout_marginLeft="@dimen/dimension_object_5"
+            android:text="@string/tv_series"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvComics" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvSeriesValue"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dimension_object_20"
+            android:text="@string/tv_list_value_default"
+            android:layout_marginLeft="@dimen/dimension_object_10"
+            app:layout_constraintStart_toEndOf="@+id/tvSeries"
+            app:layout_constraintTop_toBottomOf="@+id/tvComics" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvStories"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dimension_object_20"
+            android:layout_marginLeft="@dimen/dimension_object_5"
+            android:text="@string/tv_stories"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvSeries" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvStoriesValue"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dimension_object_20"
+            android:text="@string/tv_list_value_default"
+            android:layout_marginLeft="@dimen/dimension_object_10"
+            app:layout_constraintStart_toEndOf="@+id/tvStories"
+            app:layout_constraintTop_toBottomOf="@+id/tvSeries" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvEvents"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dimension_object_20"
+            android:layout_marginLeft="@dimen/dimension_object_5"
+            android:text="@string/tv_events"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvStories" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvEventsValue"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dimension_object_20"
+            android:text="@string/tv_list_value_default"
+            android:layout_marginLeft="@dimen/dimension_object_10"
+            app:layout_constraintStart_toEndOf="@+id/tvEvents"
+            app:layout_constraintTop_toBottomOf="@+id/tvStories" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

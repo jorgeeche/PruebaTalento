@@ -1,0 +1,63 @@
+plugins {
+    id 'com.android.library'
+    id 'kotlin-android'
+}
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+
+    defaultConfig {
+        minSdkVersion rootProject.ext.minSdkVersion
+    }
+
+    buildTypes {
+        debug {
+            testCoverageEnabled true
+        }
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+    productFlavors {
+        dev {
+            buildConfigField "String", 'HASH', "\"${hash_dev_debug}\""
+            buildConfigField "String", 'KEY', "\"${public_key}\""
+            buildConfigField "String", 'BASE_URL', "\"${dev_base_url}\""
+            buildConfigField "String", "PREFS", "\"${prefs_dev}\""
+
+        }
+
+        pre {
+            buildConfigField "String", 'HASH', "\"${hash_dev_debug}\""
+            buildConfigField "String", 'KEY', "\"${public_key}\""
+            buildConfigField "String", 'BASE_URL', "\"${pre_base_url}\""
+            buildConfigField "String", "PREFS", "\"${prefs_pre}\""
+
+        }
+
+        pro {
+            buildConfigField "String", 'HASH', "\"${hash_dev_debug}\""
+            buildConfigField "String", 'KEY', "\"${public_key}\""
+            buildConfigField "String", 'BASE_URL', "\"${pro_base_url}\""
+            buildConfigField "String", "PREFS", "\"${prefs_pro}\""
+
+        }
+    }
+    flavorDimensions "enviroment"
+
+}
+
+dependencies {
+    implementation project(":commons")
+    implementation project(":domain")
+    implementation project(":commons-android")
+
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.12.0'//Auth Interceptor
+    implementation libs.koin
+    implementation libs.kotlin
+    implementation libs.retrofit
+    implementation libs.retrofitMoshi
+    implementation libs.retrofitKotlinCoroutinesAdapter
+    implementation libs.threeTenABP
+}

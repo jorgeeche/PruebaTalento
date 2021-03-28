@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="colorBackground" format="reference" />
+    <attr name="colorBackgroundContrastLight" format="reference" />
+    <attr name="colorPrimaryDisabled" format="reference" />
+    <attr name="colorPrimaryDarkDisabled" format="reference" />
+    <attr name="colorPrimaryDarker" format="reference" />
+    <attr name="colorOnPrimary" format="reference" />
+    <attr name="colorOnPrimaryDull" format="reference" />
+    <attr name="colorErrorDull" format="reference" />
+    <attr name="colorWarning" format="reference" />
+
+    <attr name="textColorPrimary" format="reference" />
+    <attr name="textColorPrimaryLight" format="reference" />
+    <attr name="textColorSecondary" format="reference" />
+    <attr name="textColorPrimaryDark" format="reference" />
+    <attr name="textColorPrimaryDarker" format="reference" />
+    <attr name="textColorOnError" format="reference" />
+    <attr name="textColorOnPrimary" format="reference" />
+
+    <attr name="textColorBluishGray" format="reference" />
+
+    <attr name="decoratorColor" format="reference" />
+
+    <attr name="alphaDisabled" format="float" />
+
+</resources>

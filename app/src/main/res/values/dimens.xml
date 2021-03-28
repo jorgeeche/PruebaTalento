@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bottom_navigation_view_height">56dp</dimen>
+
+    <!-- SIZE TEXT -->
+    <dimen name="size_text_10">10sp</dimen>
+    <dimen name="size_text_12">12sp</dimen>
+    <dimen name="size_text_14">14sp</dimen>
+    <dimen name="size_text_16">16sp</dimen>
+    <dimen name="size_text_20">20sp</dimen>
+    <dimen name="size_text_24">24sp</dimen>
+
+    <!-- MARGIN -->
+    <dimen name="margin_5">5dp</dimen>
+    <dimen name="margin_10">10dp</dimen>
+    <dimen name="margin_15">15dp</dimen>
+    <dimen name="margin_20">20dp</dimen>
+    <dimen name="margin_25">25dp</dimen>
+    <dimen name="margin_30">30dp</dimen>
+    <dimen name="margin_35">35dp</dimen>
+
+    <!-- DIMENSION -->
+    <dimen name="dimension_object_5">5dp</dimen>
+    <dimen name="dimension_object_10">10dp</dimen>
+    <dimen name="dimension_object_15">15dp</dimen>
+    <dimen name="dimension_object_20">20dp</dimen>
+    <dimen name="dimension_object_25">25dp</dimen>
+    <dimen name="margin_54">54sp</dimen>
+    <dimen name="margin_24">24sp</dimen>
+    <dimen name="tam_40">40sp</dimen>
+    <dimen name="tam_60">60sp</dimen>
+    <dimen name="statusBarPadding">24dp</dimen>
+    <dimen name="statusBarPaddingg">44dp</dimen>
+    <dimen name="padding_10">10dp</dimen>
+    <dimen name="padding_20">20dp</dimen>
+    <dimen name="margin_50">50dp</dimen>
+    <dimen name="tam_70">70sp</dimen>
+</resources>
